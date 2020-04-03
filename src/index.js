@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import 'tachyons'; // Tachyons is just the same as bootstrap classes as it provides styling in JSX
+import App from './App'; // This is the father of all our components
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+ReactDOM.render(<App />,document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
