@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons'; // Tachyons is just the same as bootstrap classes as it provides styling in JSX
-import App from './App'; // This is the father of all our components
+import App from "./containers/App"; // This is the father of all our components
 import * as serviceWorker from './serviceWorker';
 
 
